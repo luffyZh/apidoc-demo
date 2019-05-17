@@ -1,0 +1,8 @@
+{
+  "name": "apidoc-demo",
+  "version": "1.0.0",
+  "description": "边写边学系列 —— apidoc",
+  "title": "apidoc-demo",
+  "url" : "http://localhost:3333",
+  "preview-url": "http://localhost:3333/apidoc/index.html"
+}
