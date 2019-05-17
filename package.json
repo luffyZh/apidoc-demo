@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "start": "DEBUG=apidoc-demo:* nodemon ./bin/www",
-    "apidoc": "apidoc -i routes/ -o public/apidoc/"
+    "apidoc": "apidoc -i routes/ -o public/apidoc/",
+    "prestart": "yarn apidoc"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
